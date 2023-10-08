@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container
+{
+  height: 100vh;
+  width:100% ;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("https://img.freepik.com/free-vector/realistic-coffee-background_79603-1652.jpg?w=900&t=st=1696785704~exp=1696786304~hmac=160898dae3c696d8aa30cd57d1c3bfd25cb99c04530b959b59b8f1d0105cad61");
+  background-position: center;
+  background-size: cover;
+
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px;
+
+}
+.nav-bar .title{
+   color: #fff;
+   font-size: 67px;
+   font-weight: 600;
+   cursor: pointer;
+
+}
+span{
+  color: crimson;
+}
+.nav-bar p
+{
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 50px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.menu li{
+  list-style: none;
+  display: inline-block;
+
+
+}
+.menu li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 25px;
+  transition: 4s ease;
+}
+.menu li a:hover
+{
+  color: crimson;
+  padding: 5px 10px;
+  border: 2px solid #fff;
+}
+.home
+{
+  heigth: 400px;
+  padding: 70px;
+
+}
+.title-1
+{
+  font-size: 56px;
+  color: #fff;
+  font-weight: 600;
+
+}
+.home p
+{
+  color: lemonchiffon;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.home button{
+  heigth: 40px;
+  color: #fff;
+  background: crimson;
+  font-size: 22px;
+  padding: 5px 30px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px ;
+  transition: .4s ease;
+  cursor: pointer;
+}
+.home button:hover{
+  background: none;
+  boarder: 2px solid crimson;
+}
